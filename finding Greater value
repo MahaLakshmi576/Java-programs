@@ -1,0 +1,18 @@
+class greater_value{
+    public static void main(String []args){
+    int a=550;
+    int  b=87;
+    int c=5534;
+    if(a>b && a>c){
+        System.out.println("a  is greater value");
+    }
+    else if(b>c){
+        System.out.println("b is greater value");
+    }
+    else{
+    System.out.println("c is greater value");
+        
+    }
+    
+}
+   }
