@@ -1,8 +1,13 @@
-class greater_value{
+import java.util.Scanner;
+class greter_val{
     public static void main(String []args){
-    int a=550;
-    int  b=87;
-    int c=5534;
+    Scanner in=new Scanner(System.in); 
+    System.out.println("Enter val a:");
+    int a=in.nextInt();
+    System.out.println("Enter val b:");
+    int b=in.nextInt();
+    System.out.println("Enter val c:");
+    int c=in.nextInt();
     if(a>b && a>c){
         System.out.println("a  is greater value");
     }
