@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class practice {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Fruit name:");
+        String fruit=sc.next();
+        switch (fruit){
+            case "mango":
+                System.out.println("maha");
+                break;
+            case "apple":
+                System.out.println("prasad");
+                break;
+            case "banana":
+                System.out.println("nanna");
+                break;
+            default:
+                System.out.println("Enter a valid fruit");
+        }
+    }
+}
+
