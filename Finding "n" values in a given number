@@ -1,0 +1,21 @@
+public class CountNums {
+    public static void main(String[] args){
+
+        int i=83973;
+        int count=0;
+        while(i>0){
+            int remainder=i%10;
+            if(remainder==3){  
+                count++;
+            }
+            i/=10;
+
+
+        }
+        System.out.println("no.of 3's in given numbers is:" + count);
+
+
+        }
+
+
+    }
