@@ -1,0 +1,17 @@
+//shawoding in java occurs when var declared inside scope has same name as var declared outer scope
+public class shadowing{
+    static int x=10;
+    public static void main(String[] args){
+        System.out.println(x);//prints 10
+            int x;
+            x=40;
+            System.out.println(x);//prints 40
+            fun();
+        }
+
+    static void fun(){
+        System.out.println(x);//prints 10
+    }
+
+
+}
